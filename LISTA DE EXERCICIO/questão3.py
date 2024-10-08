@@ -8,8 +8,6 @@ def verificar_primo(num):
         if ((num % i) == 0):
             flag = False
     return flag            
-        
-#main
 
 numero = int(input("Digite um número inteiro: "))
 if(verificar_primo(numero)):
